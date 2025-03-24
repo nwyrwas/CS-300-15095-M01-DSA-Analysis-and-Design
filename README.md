@@ -1,50 +1,72 @@
-# CS-300-15095-M01-DSA-Analysis-and-Design
+# 📚 **CS-300 Course Management Program**
 
-CS300 Course Management Program
+This repository showcases my work and understanding of **Data Structures and Algorithms** (DSA) through projects completed during the **CS300** course. The focus of the repository is on the design, implementation, and analysis of efficient data structures to manage and display course information for a Computer Science program.
 
--This repository contains selected portions of projects completed during the CS300 course, showcasing my understanding of data structures and algorithms.
+## 📝 **Projects Overview**
+1. **Data Structures Analysis**  
+   A detailed analysis of runtime and memory usage for three data structures: **Vector**, **Hash Table**, and **Binary Search Tree (BST)**.
+   
+2. **Course Sorting and Printing**  
+   A **C++** implementation to sort and print a list of courses in **alphanumeric order** using efficient data structures.
 
-Contents
+## ⚙️ **Project Details**
 
-Analysis of Data Structures (Project One)
+### **1. Data Structures Analysis (Project One)**
+This project involved analyzing the performance of three key data structures:
 
-- A detailed analysis of runtime and memory usage for three data structures: Vector, Hash Table, and Binary Search Tree (BST).
+- **Vector**: The performance of resizing and searching operations.
+- **Hash Table**: Exploring hash collisions, probing, and search efficiency.
+- **Binary Search Tree (BST)**: Analyzing tree balancing, search time complexity, and space utilization.
 
-Course Sorting and Printing Code (Project Two)
+#### **Key Features**:
+- **Comparative Analysis**: Runtime and memory usage of each data structure were compared.
+- **Efficiency Evaluation**: Focused on trade-offs between time and space complexity in various operations like insertion, search, and deletion.
 
-- A C++ implementation to sort and print a list of courses in alphanumeric order using efficient data structures.
+### **2. Course Sorting and Printing (Project Two)**
+A **C++** implementation to:
+- Read a list of courses from a file
+- Sort them in **alphanumeric order**
+- Efficiently store and print course details
 
+#### **Key Features**:
+- **Sorting & Printing**: Alphanumeric sorting of course information using optimal algorithms.
+- **Error Handling**: Handling of malformed data and invalid file inputs.
+- **File Parsing**: Implementation of efficient file parsing and data validation techniques.
 
+## 🛠 **Technologies & Tools**
+- **Programming Language**: C++
+- **Data Structures**: Vector, Hash Table, Binary Search Tree (BST)
+- **Techniques Used**: File Parsing, Sorting, Modular Code Design, Algorithm Optimization
+- **Testing**: Unit testing for verifying sorting and data parsing functionalities
 
-Reflection
+## 💡 **Reflection**
+### **Problem Solving Approach**:
+The primary problem I aimed to solve was managing and displaying course information for a Computer Science program. The challenge involved reading data from a file, storing it in efficient data structures, and implementing sorting/searching operations while optimizing runtime and memory usage.
 
-What was the problem you were solving in the projects for this course?
-The primary problem was designing and implementing a system to manage and display course information for a Computer Science program. This included reading data from a file, storing it in efficient data structures, and enabling operations like sorting and searching while optimizing runtime and memory usage.
+### **Problem Solving Process**:
+1. **Requirement Analysis**: I began by analyzing the system requirements and the type of operations needed (e.g., sorting, searching).
+2. **Data Structure Selection**: Evaluated the advantages and disadvantages of different data structures (Vector, Hash Table, BST) based on performance, memory usage, and operation types.
+3. **Implementation**: I chose the **Hash Table** for its average-case efficiency and built a modular solution that handled file parsing, data storage, sorting, and error handling.
 
-How did you approach the problem?
+### **Overcoming Roadblocks**:
+- **File Parsing Errors**: Encountered challenges with malformed input data; solved by using **error-handling techniques** and writing unit tests for edge cases.
+- **Sorting and Large Datasets**: Ensured sorting worked correctly for large datasets by testing with increasing data sizes and optimizing the algorithm for efficiency.
 
-I began by analyzing the requirements and evaluating the advantages and disadvantages of different data structures (Vector, Hash Table, and BST). I selected the Hash Table for its average-case efficiency and implemented file parsing, data storage, and sorting functionality using modular and structured programming techniques.
+### **Impact on Software Design**:
+This project taught me the importance of selecting the right data structure for the problem at hand. It deepened my understanding of algorithm efficiency and how performance can be influenced by the choice of data structures. Moreover, I enhanced my ability to write modular, reusable, and adaptable code by incorporating error handling and edge-case testing.
 
-How did you overcome any roadblocks you encountered while going through the activities or project?
+## 🔧 **Key Features & Benefits**
+- **Data Structures Analysis**: Provides a comprehensive evaluation of runtime and memory efficiency for various data structures.
+- **Course Management**: Effectively manages course data with efficient sorting and printing functionality.
+- **Error Handling**: Built-in mechanisms to handle input errors and malformed data, ensuring robustness.
+- **Modular Code**: Code is designed with modularity and reusability in mind, allowing easy updates or extensions.
 
-Some challenges included handling file parsing errors, validating prerequisites, and ensuring that sorting worked correctly for large datasets. To overcome these, I leveraged pseudocode for clarity, wrote test cases to validate logic, and applied error-handling techniques to improve robustness.
-
-How has your work on this project expanded your approach to designing software and developing programs?
-
-This project reinforced the importance of selecting the right data structure for a problem. It also deepened my understanding of algorithm efficiency and the trade-offs between runtime performance and memory consumption. Additionally, I gained experience in designing modular and reusable code.
-
-How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
-
-I have improved my use of in-line comments, clear naming conventions, and modular functions. These practices enhance code readability and make future adaptations or extensions easier. I also incorporated error handling and edge-case testing, which are crucial for building reliable programs.
-
-Features
-
-Data Structures Analysis: Comparative analysis of runtime and memory usage for Vector, Hash Table, and BST.
-
-File Parsing: Reads course data from a file and validates input for errors.
-
-Course Sorting: Efficiently sorts and prints courses in alphanumeric order.
-
-Error Handling: Handles invalid file input, malformed data, and other edge cases.
-
-Modularity: Includes reusable and modularized functions for data management.
+## 📄 **How to Run the Project**
+To run this project, clone the repository and compile the **C++** files using your preferred IDE or terminal. Here’s how you can do it:
+```bash
+git clone https://github.com/nwyrwas/CS-300-15095-M01-DSA-Analysis-and-Design.git
+cd CS-300-15095-M01-DSA-Analysis-and-Design
+# Compile the C++ files
+g++ main.cpp -o course_management
+# Run the compiled program
+./course_management
